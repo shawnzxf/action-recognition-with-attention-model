@@ -5,6 +5,7 @@ This code is for action recognition in video through a convolutional hierarchica
 ## Files
 
 'list': 
+
 to store ucf-101/hmdb-51 dataset list which tells the path and the lable of preprocessed CNN feature of each video.
 
 'models': 
