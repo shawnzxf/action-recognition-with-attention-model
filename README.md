@@ -4,26 +4,38 @@ This code is for action recognition in video through a convolutional hierarchica
 
 ## Files
 
-'list': 
+list: 
 
 to store ucf-101/hmdb-51 dataset list which tells the path and the lable of preprocessed CNN feature of each video.
 
-'models': 
+
+models: 
+
 to store the models trained by this code.
 
-'proprecess': 
+
+proprecess: 
+
 to store the codes which complete pre-processing of videos on the dataset. There is another README.md for pre-processing in this folder.
 
-'input_data.py': 
+
+input_data.py: 
+
 to provide functions that read and label videos for training and testing.
 
-'model.py': 
+
+model.py: 
+
 to provide classes and functions for constructing 3 different kinds of network model.
 
-'test.py': 
+
+test.py: 
+
 to provide functions to test the model trained.
 
-'train.py': 
+
+train.py: 
+
 to provide functions to train the model defined on 'model.py'.
 
 N.B. 'list' folder under this directory is different from the one under 'preprocess' directory.
@@ -38,10 +50,12 @@ N.B. version: python 2.7 and tensorflow 1.4.0
 Important parameters are specified on each script, change those parameters if needed.
 
 #### 3 Run training script to train the network model
-E.g. run command as below.
+E.g. run command as below. 
+
 ```CUDA_VISIBLE_DEVICES=0,1 python train.py```
 
 #### 4 Test the model just trained
-E.g. run command as below.
+E.g. run command as below. 
+
 ```CUDA_VISIBLE_DEVICES=0,1 python test.py```
 N.B. Testing are automatically conducted in train.py during training by default.
