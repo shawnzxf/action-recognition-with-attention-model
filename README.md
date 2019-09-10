@@ -5,7 +5,7 @@ This code is for action recognition in video through a convolutional hierarchica
 ## HOW-TO:
 
 #### 1 Install package needed
-Package needed includes tensorflow, PIL, numpy and h5py.
+Package needed includes tensorflow, PIL, numpy and h5py.  
 N.B. version: python 2.7 and tensorflow 1.4.0
 
 #### 2 Modify the parameters for network model training and testing
@@ -19,8 +19,7 @@ E.g. run command as below.
 #### 4 Test the model just trained
 E.g. run command as below. 
 
-```CUDA_VISIBLE_DEVICES=0,1 python test.py``` 
-
+```CUDA_VISIBLE_DEVICES=0,1 python test.py```  
 N.B. Testing are automatically conducted in train.py during training by default.
 
 ## Results
@@ -31,7 +30,7 @@ On the UCF-101 dataset, results are as following:
 | ------------- | ------------- |
 |  FC-Attention  |  68.59%  |
 |  Conv-Attention  |  70.16%  |
-|  Hierarchical Conv-Attention  |  70.16%  |
+|  Hierarchical Conv-Attention  |  73.80%  |
 
 
 ## Files
