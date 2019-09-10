@@ -26,6 +26,7 @@ N.B. Testing are automatically conducted in train.py during training by default.
 ## Results
 #### UCF-101 dataset
 On the UCF-101 dataset, results are as following:
+
 | models  | accuracy |
 | ------------- | ------------- |
 |  FC-Attention  |  68.59%  |
